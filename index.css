@@ -1,0 +1,184 @@
+body{
+    background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/68/45/5Svzw6.jpg");
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center 0px;;
+    overflow-x: hidden;
+    margin:0;
+
+}
+
+header{
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    
+    
+}
+
+nav{
+    position: relative;
+    width:50vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Start{
+font-size: 1.3rem;
+font-family:"Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+color:black;
+margin-left:10rem;
+letter-spacing: .2rem;
+padding:1rem;
+align-items: center;
+width:13rem;
+margin-right: auto;
+margin-left: auto;
+}
+
+.navbar{
+display: block;
+float:right;
+position: relative;
+top:2rem;
+}
+
+.navbar a{
+    margin-top:15px;
+    margin-right:48px;
+    font-size: 1rem;
+    color: #000000;
+    padding:10px;
+    text-decoration: none;
+    font-family:"Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position: relative;
+
+}
+
+
+.MainArea{
+    margin:0;
+    margin-top:160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.GrayScale{
+    margin-left:auto;
+    margin-right:auto;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 7rem;
+    line-height: 7rem;
+    letter-spacing: 0.8rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.MiddleText{
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    position: relative;
+    top:-80px;
+    left:8px;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.GetStarted{
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
+    padding: 1.25rem 2rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+    border-radius: .2rem;
+    background-color: #64a19d;
+    position: relative;
+    top:-20px;
+}
+
+.drop{
+    position: relative;
+    float: right;
+    margin-left:auto;
+    margin-right:auto;
+    top:1.8rem;
+    left:-1rem;
+    outline: solid 2px rgb(80, 165, 230);
+    width:4rem;
+    height:2rem;
+    text-align:center;
+    
+}
+
+.drop:hover .dropitems{
+    display: block;
+}
+
+.dropitems{
+    display: none;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000000;
+    padding:10px;
+    text-decoration: none;
+    font-family:"Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position: relative;
+    margin
+
+}
+
+.Menu{
+    position: relative;
+    top:-10px;
+}
+
+
+
+
+@media (max-width: 974px){
+    header{
+        background-color: white;
+    }
+
+    .navbar{
+        display: none;
+    }
+    
+    .GrayScale{
+        font-size: 5rem;
+    }
+
+    .MiddleText{
+        font-size: 1.1rem;;
+    }
+
+    .GetStarted{
+        font-size: .8rem;;
+        top:-40px;
+    }
+
+}
+
+@media (min-width: 975px){
+    .drop{
+        display: none;
+    }
+    
+}
+
+
+@media (max-width: 600px){
+    .GrayScale{
+        font-size:4rem;
+    }
+
+    .MiddleText{
+        font-size: .8rem;;
+    }
+}
